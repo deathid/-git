@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		E8F3B7C521C0B33500055742 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F3B7C421C0B33500055742 /* AppDelegate.swift */; };
-		E8F3B7C721C0B33500055742 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F3B7C621C0B33500055742 /* ViewController.swift */; };
 		E8F3B7CA21C0B33500055742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F3B7C821C0B33500055742 /* Main.storyboard */; };
 		E8F3B7CC21C0B33700055742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8F3B7CB21C0B33700055742 /* Assets.xcassets */; };
 		E8F3B7CF21C0B33700055742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F3B7CD21C0B33700055742 /* LaunchScreen.storyboard */; };
 		E8F3B7DA21C0B33700055742 /* git__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F3B7D921C0B33700055742 /* git__Tests.swift */; };
 		E8F3B7E521C0B33700055742 /* git__UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F3B7E421C0B33700055742 /* git__UITests.swift */; };
+		E8F3B7F321C0B46B00055742 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F3B7C621C0B33500055742 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		E8F3B7C121C0B33500055742 /* git测试.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "git测试.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F3B7C421C0B33500055742 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E8F3B7C621C0B33500055742 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E8F3B7C621C0B33500055742 /* ViewController.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E8F3B7C921C0B33500055742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8F3B7CB21C0B33700055742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8F3B7CE21C0B33700055742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8F3B7C721C0B33500055742 /* ViewController.swift in Sources */,
+				E8F3B7F321C0B46B00055742 /* ViewController.swift in Sources */,
 				E8F3B7C521C0B33500055742 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
